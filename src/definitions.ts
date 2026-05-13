@@ -162,6 +162,8 @@ export interface SetCredentialOptions {
    * @since 8.4.0
    */
   accessControl?: AccessControl;
+  title?: string;
+  negativeButtonText?: string;
 }
 
 export interface GetSecureCredentialsOptions {
